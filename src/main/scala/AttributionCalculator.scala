@@ -41,7 +41,6 @@ object AttributionCalculator extends App{
   implicit val spark = SparkSession.builder
     .appName("sparkexample")
     .master("local[*]")
-    .enableHiveSupport
     .getOrCreate
   import spark.sqlContext.implicits._
 
