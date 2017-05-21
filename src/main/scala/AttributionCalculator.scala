@@ -12,28 +12,31 @@ class Event(path: String)(implicit spark: SparkSession){
   private val eventsCSV = spark.read.format("com.databricks.spark.csv").load(path).rdd
 
   private val eventsSchema = Encoders.product[EventRecord].schema
-  val eventsDF = spark.createDataFrame(eventsCSV, eventsSchema)
+  private val eventsDF = spark.createDataFrame(eventsCSV, eventsSchema)
   private val toInt = udf((i: String) => i.toInt)
-  val eventsWithMinDF = eventsDF
-    .withColumn("eventMillies", toInt(col("eTimestamp")))
-  val w2 = Window.partitionBy("eAdvertiserId", "eUserId", "eventType").orderBy("eventMillies")
-  val withLagsDF2 = eventsWithMinDF
-    .withColumn( "lag", lag("eventMillies", 1).over(w2))
-    .withColumn( "diff", col("eventMillies")-col("lag") )
-    .filter(col("diff").isNull or col("diff") > 60)
+  private val eventsWithMinDF = eventsDF
+    .withColumn("eEventMillies", toInt(col("eTimestamp")))
+  private val window = Window.partitionBy("eAdvertiserId", "eUserId", "eventType").orderBy("eEventMillies")
+  val deduped = eventsWithMinDF
+    .withColumn( "lag", lag("eEventMillies", 1).over(window))
+    .withColumn( "diff", col("eEventMillies")-col("lag") )
+    .filter(col("diff").isNull or col("diff") > 60000)
 }
 
 class Impression(path: String)(implicit spark: SparkSession){
   private val impCSV = spark.read.format("com.databricks.spark.csv").load(path).rdd
   private val impSchema = Encoders.product[ImpressionRecord].schema
-  val impDF = spark.createDataFrame(impCSV, impSchema)
-  impDF.createOrReplaceTempView("impressions")
+  private val toInt = udf((i: String) => i.toInt)
+  private val impDFRaw = spark.createDataFrame(impCSV, impSchema)
+  val impDF = impDFRaw.withColumn("impEventMillies", toInt(col("impTimestamp")))
 }
 
 class ImpressionEvent(events: Event, impressions: Impression)(implicit spark: SparkSession){
+  events.deduped.show(10)
+  impressions.impDF.show(10)
   import spark.sqlContext.implicits._
-  val attributions = impressions.impDF.join(events.eventsWithMinDF,
-    $"impAdvertiserId" === $"eAdvertiserId" and $"impUserId" === $"eUserId" and $"impTimestamp" < $"latestTimestampInMinute")
+  val attributions = impressions.impDF.join(events.deduped,
+    $"impAdvertiserId" === $"eAdvertiserId" and $"impUserId" === $"eUserId" and  $"impEventMillies" < $"eEventMillies")
 
 }
 object AttributionCalculator extends App{

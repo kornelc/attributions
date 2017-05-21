@@ -16,19 +16,23 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
     .getOrCreate
   import spark.sqlContext.implicits._
 
-  def deterministic(s: Dataset[Row]) = {
+  private def prepareForDedDupeTest(s: Dataset[Row]) = {
     s.collect.map(_.toSeq).sortWith( (_(5).toString.toInt < _(5).toString.toInt))
   }
+  private def prepareForAttributionTest(s: Dataset[Row]) = {
+    s.collect.map(_.toSeq).sortWith( (_(0).toString.toInt < _(0).toString.toInt))
+  }
+
   "AttributionCalculator" should "should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" in {
     val events = new Event("src/test/resources/testevents-sameu-samea-samem-samee.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 1
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "click", 60001, null, null)
   }
 
   it should "should not remove duplicate events for when advertizer is different" in {
     val events = new Event("src/test/resources/testevents-sameu-diffa-samem-samee.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 2
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "click", 60001, null, null)
     noDupes(1) should contain theSameElementsAs Seq("60002", "ev2", "a2", "u1", "click", 60002, null, null)
@@ -36,35 +40,44 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
 
   it should "should not remove duplicate events for when user is different" in {
     val events = new Event("src/test/resources/testevents-diffu-samea-samem-samee.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 2
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "click", 60001, null, null)
     noDupes(1) should contain theSameElementsAs Seq("60003", "ev3", "a1", "u2", "click", 60003, null, null)
   }
   it should "should not remove duplicate events for when eventType is different" in {
     val events = new Event("src/test/resources/testevents-sameu-samea-samem-diffe.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 2
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "purchase", 60001, null, null)
     noDupes(1) should contain theSameElementsAs Seq("60002", "ev2", "a1", "u1", "click", 60002, null, null)
   }
   it should "should not remove duplicate events for when minute is different" in {
     val events = new Event("src/test/resources/testevents-sameu-samea-diffm-samee.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 2
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "click", 60001, null, null)
     noDupes(1) should contain theSameElementsAs Seq("160003", "ev3", "a1", "u1", "click", 160003, 60002, 100001)
   }
-  it should "only remove duplicates where aggregation keys are different (complex example)" in {
+  it should "only remove duplicates where aggregation keys are the same (complex example)" in {
     val events = new Event("src/test/resources/testevents.csv")
-    val noDupes = deterministic(events.withLagsDF2)
+    val noDupes = prepareForDedDupeTest(events.deduped)
     noDupes.size shouldEqual 4
     noDupes(0) should contain theSameElementsAs Seq("60001", "ev1", "a1", "u1", "click", 60001, null, null)
     noDupes(1) should contain theSameElementsAs Seq("60011", "ev4", "a2", "u1", "click", 60011, null, null)
     noDupes(2) should contain theSameElementsAs Seq("60012", "ev5", "a2", "u1", "purchase", 60012, null, null)
     noDupes(3) should contain theSameElementsAs Seq("160009", "ev7", "a1", "u1", "click", 160009, 60008, 100001)
   }
-  it should "find attribution events for each impression, which are events for same advertiser and user after impression"
+  it should "find attribution events for each impression, which are events for same advertiser and user exclusively after impression" in{
+    val attributions = new ImpressionEvent(
+      new Event("src/test/resources/attribution-events.csv"),
+      new Impression("src/test/resources/attribution-impressions.csv"))
+    val attr = prepareForAttributionTest(attributions.attributions)
+    attr.size shouldEqual 3
+    attr(0) should contain theSameElementsAs Seq("60002", "a1", "c1", "u1", 60002, "160009", "ev7", "a1", "u1", "click", 160009, 60008, 100001)
+    attr(1) should contain theSameElementsAs Seq("60012", "a2", "c3", "u1", 60012, "120013", "ev4", "a2", "u1", "click", 120013, 60011, 60002)
+    attr(2) should contain theSameElementsAs Seq("60012", "a2", "c3", "u1", 60012, "60014", "ev5", "a2", "u1", "purchase", 60014, null, null)
+  }
 
   it should "compute the count of attributed events for each advertiser, grouped by event type"
 

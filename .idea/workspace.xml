@@ -1,304 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ded38056-417e-48fe-92ca-52d53435ef1a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/derby.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/db.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/dbex.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/log2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c311.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c380.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c3f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c421.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c430.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c441.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c451.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c461.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c470.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c481.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c501.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c521.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c541.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c561.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c581.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c601.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c621.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c641.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c661.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c681.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c701.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c711.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c721.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c731.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c741.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c751.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c761.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c771.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c781.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c791.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c7f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c801.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c811.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c821.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c831.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c851.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c871.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c891.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c901.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c911.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/ca01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/ca11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/ca21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/service.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sbt_2.11/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sbt_2.11/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sbt_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sbt_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sources_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath$sources_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath_2.11/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath_2.11/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath_2.12/1.0/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/mediamath_2.12/1.0/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sbt_2.11-default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sbt_2.12-default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.11-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath$sources_2.12-default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.11-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-mediamath_2.12-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/AttributionCalculator$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/AttributionCalculator$delayedInit$body.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/AttributionCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Event$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Event$$typecreator1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Event$$typecreator2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Event.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/EventRecord$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/EventRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Impression$$typecreator3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Impression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ImpressionEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ImpressionRecord$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/ImpressionRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/events.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/impressions.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$deterministic$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$$anonfun$deterministic$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$EventRecord$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$EventRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$ImpressionRecord$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest$ImpressionRecord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/AttributionCalculatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents-diffu-samea-samem-samee.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents-sameu-diffa-samem-samee.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents-sameu-samea-diffm-samee.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents-sameu-samea-samem-diffe.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents-sameu-samea-samem-samee.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/testevents.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/mediamath.iml" afterPath="$PROJECT_DIR$/.idea/modules/mediamath.iml" />
+    <list default="true" id="ded38056-417e-48fe-92ca-52d53435ef1a" name="Default" comment="removed unnecessary dirs">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/attribution-events.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/attribution-impressions.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" afterPath="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" />
     </list>
     <ignored path="MediaMath.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -316,26 +24,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="15">
-                    <caret line="25" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -365,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -378,8 +66,8 @@
       <file leaf-file-name="AttributionCalculator.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="254">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -387,24 +75,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testevents-sameu-samea-samem-samee.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents-sameu-samea-samem-samee.csv">
+      <file leaf-file-name="Dataset.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="341">
+              <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#832#862#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributionCalculatorTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attribution-events.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-events.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributionCalculatorTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
+      <file leaf-file-name="attribution-impressions.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-impressions.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -439,26 +150,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testevents-diffu-samea-samem-samee.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents-diffu-samea-samem-samee.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testevents-sameu-diffa-samem-samee.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents-sameu-diffa-samem-samee.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -481,9 +172,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/testevents-sameu-samea-samem-diffe.csv" />
         <option value="$PROJECT_DIR$/src/test/resources/testevents-sameu-samea-diffm-samee.csv" />
         <option value="$PROJECT_DIR$/src/test/resources/testevents.csv" />
-        <option value="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/resources/attributions-events.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/attributions-impressions.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/attribution-events.csv" />
+        <option value="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" />
       </list>
     </option>
   </component>
@@ -501,7 +195,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
+    <option name="x" value="13" />
     <option name="y" value="23" />
     <option name="width" value="1394" />
     <option name="height" value="833" />
@@ -565,6 +259,108 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MediaMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metastore_db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -595,36 +391,6 @@
     </key>
   </component>
   <component name="RunManager" selected="ScalaTest.AttributionCalculatorTest">
-    <configuration default="false" name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when eventType is different" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="mediamath" />
-      <setting name="path" value="AttributionCalculatorTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="AttributionCalculator should should not remove duplicate events for when eventType is different" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="mediamath" />
-      <setting name="path" value="AttributionCalculatorTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="AttributionCalculator should should not remove duplicate events for when minute is different" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="mediamath" />
@@ -665,6 +431,36 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AttributionCalculator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="AttributionCalculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mediamath" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mediamath" />
+      <setting name="path" value="AttributionCalculatorTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -1330,19 +1126,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when eventType is different" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AttributionCalculator" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when eventType is different" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AttributionCalculator" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" />
       </list>
     </recent_temporary>
   </component>
@@ -1398,76 +1194,84 @@
       <workItem from="1494955663045" duration="4385000" />
       <workItem from="1495018555018" duration="14270000" />
       <workItem from="1495108627355" duration="30003000" />
-      <workItem from="1495318476701" duration="110000" />
+      <workItem from="1495318476701" duration="10686000" />
     </task>
+    <task id="LOCAL-00001" summary="removed unnecessary dirs">
+      <created>1495318635921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495318635921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AttributionCalculatorTest - 2017.05.20 at 17h 25m 21s.xml">
+    <history-entry file="AttributionCalculatorTest - 2017.05.21 at 13h 08m 20s.xml">
       <configuration name="AttributionCalculatorTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest - 2017.05.20 at 18h 11m 25s.xml">
-      <configuration name="AttributionCalculatorTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 48m 57s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_only_remove_duplicates_where_aggregation_keys_are_different_(complex_example) - 2017.05.20 at 17h 20m 17s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 51m 33s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_only_remove_duplicates_where_aggregation_keys_are_different_(complex_example) - 2017.05.20 at 17h 21m 04s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 58m 52s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_only_remove_duplicates_where_aggregation_keys_are_different_(complex_example) - 2017.05.20 at 17h 22m 50s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 59m 28s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_should_not_remove_duplicate_events_for_when_eventType_is_different - 2017.05.20 at 17h 13m 42s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when eventType is different" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 01m 13s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_should_not_remove_duplicate_events_for_when_minute_is_different - 2017.05.20 at 17h 15m 16s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 06m 33s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_should_not_remove_duplicate_events_for_when_minute_is_different - 2017.05.20 at 17h 15m 43s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 19s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_should_not_remove_duplicate_events_for_when_minute_is_different - 2017.05.20 at 17h 17m 23s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should should not remove duplicate events for when minute is different" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 24s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_should_remove_duplicate_events_for_adv_user_eventtype_within_minute__Use_last_timestamp_instead - 2017.05.20 at 17h 54m 39s.xml">
-      <configuration name="AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 52s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48768000" />
+    <option name="totallyTimeSpent" value="59344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="23" width="1394" height="833" extended-state="0" />
+    <frame x="13" y="23" width="1394" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37921727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35897437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3954116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18121302" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20044379" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39136302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47908232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37921727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1483,67 +1287,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed unnecessary dirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary dirs" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
-          <line>47</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
-          <line>31</line>
+          <line>75</line>
           <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
-          <line>52</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1785,13 +1549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="1333" column="6" selection-start-line="1333" selection-start-column="6" selection-end-line="1333" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/srcs/spark-catalyst_2.11-2.1.0-sources.jar!/org/apache/spark/sql/catalyst/expressions/aggregate/CentralMomentAgg.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2505">
@@ -1848,42 +1605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testevents.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1894,9 +1615,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testevents.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#832#862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-impressions.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-events.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

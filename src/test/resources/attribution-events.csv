@@ -1,0 +1,10 @@
+60001,ev1,a1,u1,click
+60002,ev2,a1,u1,click
+60003,ev3,a1,u1,click
+60011,ev4,a2,u1,click
+120012,ev5,a2,u1,purchase
+120013,ev4,a2,u1,click
+60014,ev5,a2,u1,purchase
+60008,ev6,a1,u1,click
+160009,ev7,a1,u1,click
+160009,ev1,a3,u1,click
