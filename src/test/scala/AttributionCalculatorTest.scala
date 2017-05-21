@@ -22,6 +22,9 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
   private def prepareForAttributionTest(s: Dataset[Row]) = {
     s.collect.map(_.toSeq).sortWith( (_(0).toString.toInt < _(0).toString.toInt))
   }
+  private def prepareForStatisticsTest(s: Dataset[Row]) = {
+    s.collect.map(_.toSeq).sortWith( (_(0).toString < _(0).toString))
+  }
 
   "AttributionCalculator" should "should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" in {
     val events = new Event("src/test/resources/testevents-sameu-samea-samem-samee.csv")
@@ -68,15 +71,22 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
     noDupes(2) should contain theSameElementsAs Seq("60012", "ev5", "a2", "u1", "purchase", 60012, null, null)
     noDupes(3) should contain theSameElementsAs Seq("160009", "ev7", "a1", "u1", "click", 160009, 60008, 100001)
   }
-  it should "find attribution events for each impression, which are events for same advertiser and user exclusively after impression" in{
+  it should "find attribution events for each impression, which are events for same advertiser and user exclusively after impression" in {
     val attributions = new ImpressionEvent(
       new Event("src/test/resources/attribution-events.csv"),
       new Impression("src/test/resources/attribution-impressions.csv"))
     val attr = prepareForAttributionTest(attributions.attributions)
-    attr.size shouldEqual 3
+    attr.size shouldEqual 4
     attr(0) should contain theSameElementsAs Seq("60002", "a1", "c1", "u1", 60002, "160009", "ev7", "a1", "u1", "click", 160009, 60008, 100001)
     attr(1) should contain theSameElementsAs Seq("60012", "a2", "c3", "u1", 60012, "120013", "ev4", "a2", "u1", "click", 120013, 60011, 60002)
     attr(2) should contain theSameElementsAs Seq("60012", "a2", "c3", "u1", 60012, "60014", "ev5", "a2", "u1", "purchase", 60014, null, null)
+    attr(3) should contain theSameElementsAs Seq("60013", "a2", "c3", "u2", 60013, "60015", "ev5", "a2", "u2", "purchase", 60015, null, null)
+
+    val stat = prepareForStatisticsTest(attributions.statistics)
+    stat.size shouldEqual 3
+    stat(0) should contain theSameElementsInOrderAs Seq("a1", 1, 1)
+    stat(1) should contain theSameElementsInOrderAs Seq("a2", 3, 2)
+    stat(2) should contain theSameElementsInOrderAs Seq("a5", null, null)
   }
 
   it should "compute the count of attributed events for each advertiser, grouped by event type"

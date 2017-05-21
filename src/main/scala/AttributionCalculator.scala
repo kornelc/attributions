@@ -37,7 +37,30 @@ class ImpressionEvent(events: Event, impressions: Impression)(implicit spark: Sp
   import spark.sqlContext.implicits._
   val attributions = impressions.impDF.join(events.deduped,
     $"impAdvertiserId" === $"eAdvertiserId" and $"impUserId" === $"eUserId" and  $"impEventMillies" < $"eEventMillies")
+  val advertisersWithAttributedEvents = attributions
+    .groupBy($"impAdvertiserId")
+    .agg($"impAdvertiserId".as("daAdvertiserId"), count(col("eventId")).as("attrEventCount"))
 
+  val distinctAdvertiserUsers = attributions
+    .select($"impAdvertiserId", $"impUserId").distinct()
+  val distinctUserCounts = distinctAdvertiserUsers
+    .groupBy($"impAdvertiserId")
+    .agg($"impAdvertiserId".as("duAdvertiserId"), count(col("impUserId")).as("distinctUserCount"))
+
+  impressions.impDF.select($"impAdvertiserId").distinct().show()
+
+  val statistics1 = impressions.impDF.select($"impAdvertiserId").distinct().alias("a")
+    .join(advertisersWithAttributedEvents,
+      $"a.impAdvertiserId" === $"daAdvertiserId",
+      "left_outer").select($"a.impAdvertiserId".as("s1AdvertiserId"), $"attrEventCount")
+  val statistics2 = impressions.impDF.select($"impAdvertiserId").distinct().alias("b")
+    .join(distinctUserCounts,
+      $"b.impAdvertiserId" === $"duAdvertiserId",
+      "left_outer").select($"b.impAdvertiserId".as("s2AdvertiserId"), $"distinctUserCount")
+
+  val statistics = statistics1.join(statistics2, $"s1AdvertiserId" === $"s2AdvertiserId")
+    .select($"s1AdvertiserId".as("sAdvertiserId"), $"attrEventCount", $"distinctUserCount")
+  statistics.show()
 }
 object AttributionCalculator extends App{
 
