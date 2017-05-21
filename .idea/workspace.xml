@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ded38056-417e-48fe-92ca-52d53435ef1a" name="Default" comment="removed unnecessary dirs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/attribution-events.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/attribution-impressions.csv" />
+    <list default="true" id="ded38056-417e-48fe-92ca-52d53435ef1a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" afterPath="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" />
     </list>
     <ignored path="MediaMath.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,33 +40,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="-30">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttributionCalculator.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AttributionCalculator.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="313">
+              <caret line="75" column="68" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutcomeOf.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/OutcomeOf.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSuite.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/TestSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlatSpecLike.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/FlatSpecLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1691" column="49" selection-start-line="1691" selection-start-column="49" selection-end-line="1691" selection-end-column="49" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#624#646#0" expanded="false" />
+                <element signature="e#52628#52666#0" expanded="false" />
+                <element signature="e#56518#56556#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,21 +104,18 @@
       <file leaf-file-name="Dataset.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#832#862#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="678" column="34" selection-start-line="678" selection-start-column="34" selection-end-line="678" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributionCalculatorTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AttributionCalculatorTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="355">
+              <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -100,11 +123,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="impressions.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/impressions.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="attribution-events.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-events.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,38 +146,8 @@
       <file leaf-file-name="attribution-impressions.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-impressions.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testevents.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents.csv">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testevents-sameu-samea-diffm-samee.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents-sameu-samea-diffm-samee.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testevents-sameu-samea-samem-diffe.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testevents-sameu-samea-samem-diffe.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -176,8 +179,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/attributions-events.csv" />
         <option value="$PROJECT_DIR$/src/test/resources/attributions-impressions.csv" />
         <option value="$PROJECT_DIR$/src/test/resources/attribution-events.csv" />
-        <option value="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/attribution-impressions.csv" />
         <option value="$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala" />
       </list>
     </option>
   </component>
@@ -195,8 +199,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="23" />
+    <option name="x" value="47" />
+    <option name="y" value="53" />
     <option name="width" value="1394" />
     <option name="height" value="833" />
   </component>
@@ -390,7 +394,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.AttributionCalculatorTest">
+  <component name="RunManager" selected="Application.AttributionCalculator">
     <configuration default="false" name="AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="mediamath" />
@@ -1134,9 +1138,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AttributionCalculator" />
         <item index="1" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AttributionCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest" />
         <item index="3" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" />
         <item index="4" class="java.lang.String" itemvalue="ScalaTest.AttributionCalculatorTest.AttributionCalculator should only remove duplicates where aggregation keys are different (complex example)" />
       </list>
@@ -1194,7 +1198,7 @@
       <workItem from="1494955663045" duration="4385000" />
       <workItem from="1495018555018" duration="14270000" />
       <workItem from="1495108627355" duration="30003000" />
-      <workItem from="1495318476701" duration="10686000" />
+      <workItem from="1495318476701" duration="21374000" />
     </task>
     <task id="LOCAL-00001" summary="removed unnecessary dirs">
       <created>1495318635921</created>
@@ -1203,46 +1207,60 @@
       <option name="project" value="LOCAL" />
       <updated>1495318635921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="attribution join works">
+      <created>1495386637876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495386637876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="statistics works">
+      <created>1495404398430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495404398430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AttributionCalculatorTest - 2017.05.21 at 13h 08m 20s.xml">
-      <configuration name="AttributionCalculatorTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 48m 57s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 17h 40m 34s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 51m 33s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 17h 42m 37s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 58m 52s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 17h 47m 35s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 12h 59m 28s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 17h 48m 15s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 01m 13s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 17h 57m 49s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 06m 33s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 18h 01m 03s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 19s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 18h 02m 14s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 24s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 18h 03m 52s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 13h 07m 52s.xml">
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 18h 04m 45s.xml">
+      <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AttributionCalculatorTest_AttributionCalculator_should_find_attribution_events_for_each_impression,_which_are_events_for_same_advertiser_and_user_exclusively_after_impression - 2017.05.21 at 18h 05m 43s.xml">
       <configuration name="AttributionCalculatorTest.AttributionCalculator should find attribution events for each impression, which are events for same advertiser and user exclusively after impression" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59344000" />
+    <option name="totallyTimeSpent" value="70032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="23" width="1394" height="833" extended-state="0" />
+    <frame x="47" y="53" width="1394" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1254,19 +1272,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3954116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27935222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20044379" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22633137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47908232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1275,6 +1293,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5060729" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37921727" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27935222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22633137" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1289,25 +1338,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed unnecessary dirs" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary dirs" />
+    <MESSAGE value="attribution join works" />
+    <MESSAGE value="statistics works" />
+    <option name="LAST_COMMIT_MESSAGE" value="statistics works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
-          <line>50</line>
+          <line>62</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala</url>
+          <url>file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala</url>
           <line>75</line>
-          <properties />
-          <option name="timeStamp" value="37" />
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1445,6 +1501,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,6 +1534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,13 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11865">
           <caret line="835" column="35" selection-start-line="835" selection-start-column="23" selection-end-line="835" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/impressions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1629,36 +1680,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/impressions.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/TestSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#862#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-impressions.csv">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/FlatSpecLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="1691" column="49" selection-start-line="1691" selection-start-column="49" selection-end-line="1691" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#624#646#0" expanded="false" />
+            <element signature="e#52628#52666#0" expanded="false" />
+            <element signature="e#56518#56556#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-events.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/attribution-impressions.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="678" column="34" selection-start-line="678" selection-start-column="34" selection-end-line="678" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="-30">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding />
         </state>
@@ -1666,20 +1765,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AttributionCalculator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="313">
+          <caret line="75" column="68" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/AttributionCalculatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

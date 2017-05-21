@@ -73,8 +73,6 @@ object AttributionCalculator extends App{
   val events = new Event("src/main/resources/events.csv")
   val impressions =  new Impression("src/main/resources/impressions.csv")
   val eventsImpressions = new ImpressionEvent(events, impressions)
-  eventsImpressions.attributions.toDF().show(3)
-  eventsImpressions.attributions.groupBy("impAdvertiserId").count().show(100)
-  eventsImpressions.attributions.groupBy("impAdvertiserId", "impUserId", "eventType").count().show(100)
+  eventsImpressions.statistics.collect.foreach( a=> println(s"Advertiser: ${a(0)} Attributed Events ${a(1)} Uqinue User: ${a(2)}"))
 }
 
