@@ -23,7 +23,7 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
     s.collect.map(_.toSeq).sortWith( (_(0).toString.toInt < _(0).toString.toInt))
   }
   private def prepareForStatisticsTest(s: Dataset[Row]) = {
-    s.collect.map(_.toSeq).sortWith( (_(0).toString < _(0).toString))
+    s.collect.map(_.toSeq).sortWith( (_.take(2).mkString < _.take(2).mkString))
   }
 
   "AttributionCalculator" should "should remove duplicate events for adv/user/eventtype within minute. Use last timestamp instead" in {
@@ -83,10 +83,11 @@ class AttributionCalculatorTest extends FlatSpec with Matchers{
     attr(3) should contain theSameElementsAs Seq("60013", "a2", "c3", "u2", 60013, "60015", "ev5", "a2", "u2", "purchase", 60015, null, null)
 
     val stat = prepareForStatisticsTest(attributions.statistics)
-    stat.size shouldEqual 3
-    stat(0) should contain theSameElementsInOrderAs Seq("a1", 1, 1)
-    stat(1) should contain theSameElementsInOrderAs Seq("a2", 3, 2)
-    stat(2) should contain theSameElementsInOrderAs Seq("a5", null, null)
+    stat.size shouldEqual 4
+    stat(0) should contain theSameElementsInOrderAs Seq("click", "a1", 1, 1)
+    stat(1) should contain theSameElementsInOrderAs Seq("click", "a2", 1, 1)
+    stat(2) should contain theSameElementsInOrderAs Seq( null, "a5", null, null)
+    stat(3) should contain theSameElementsInOrderAs Seq("purchase", "a2", 2, 2)
   }
 
   it should "compute the count of attributed events for each advertiser, grouped by event type"

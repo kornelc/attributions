@@ -1,7 +1,9 @@
+import java.io.File
+
 import org.apache.spark
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.expressions.Window
-import org.apache.spark.sql.{Encoders, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Encoders, Row, SparkSession}
 import org.apache.spark.sql.types.{DoubleType, StringType, StructField, StructType}
 import org.apache.spark.sql.functions._
 
@@ -32,35 +34,35 @@ class Impression(path: String)(implicit spark: SparkSession){
 }
 
 class ImpressionEvent(events: Event, impressions: Impression)(implicit spark: SparkSession){
-  events.deduped.show(10)
-  impressions.impDF.show(10)
   import spark.sqlContext.implicits._
   val attributions = impressions.impDF.join(events.deduped,
     $"impAdvertiserId" === $"eAdvertiserId" and $"impUserId" === $"eUserId" and  $"impEventMillies" < $"eEventMillies")
   val advertisersWithAttributedEvents = attributions
-    .groupBy($"impAdvertiserId")
-    .agg($"impAdvertiserId".as("daAdvertiserId"), count(col("eventId")).as("attrEventCount"))
+    .groupBy($"impAdvertiserId", $"eventType")
+    .agg($"impAdvertiserId".as("daAdvertiserId"),
+      $"eventType".as("daEventType"),
+      count(col("eventId")).as("attrEventCount"))
 
   val distinctAdvertiserUsers = attributions
-    .select($"impAdvertiserId", $"impUserId").distinct()
+    .select($"eventType", $"impAdvertiserId", $"impUserId").distinct()
   val distinctUserCounts = distinctAdvertiserUsers
-    .groupBy($"impAdvertiserId")
-    .agg($"impAdvertiserId".as("duAdvertiserId"), count(col("impUserId")).as("distinctUserCount"))
-
-  impressions.impDF.select($"impAdvertiserId").distinct().show()
+    .groupBy($"impAdvertiserId", $"eventType")
+    .agg($"impAdvertiserId".as("duAdvertiserId"),
+      $"eventType".as("duEventType"),
+      count(col("impUserId")).as("distinctUserCount"))
 
   val statistics1 = impressions.impDF.select($"impAdvertiserId").distinct().alias("a")
     .join(advertisersWithAttributedEvents,
       $"a.impAdvertiserId" === $"daAdvertiserId",
-      "left_outer").select($"a.impAdvertiserId".as("s1AdvertiserId"), $"attrEventCount")
+      "left_outer").select($"a.impAdvertiserId".as("s1AdvertiserId"), $"attrEventCount", $"daEventType")
   val statistics2 = impressions.impDF.select($"impAdvertiserId").distinct().alias("b")
     .join(distinctUserCounts,
       $"b.impAdvertiserId" === $"duAdvertiserId",
-      "left_outer").select($"b.impAdvertiserId".as("s2AdvertiserId"), $"distinctUserCount")
+      "left_outer").select($"b.impAdvertiserId".as("s2AdvertiserId"), $"distinctUserCount", $"duEventType")
 
-  val statistics = statistics1.join(statistics2, $"s1AdvertiserId" === $"s2AdvertiserId")
-    .select($"s1AdvertiserId".as("sAdvertiserId"), $"attrEventCount", $"distinctUserCount")
-  statistics.show()
+  val statistics = statistics1.join(statistics2,
+    $"s1AdvertiserId" === $"s2AdvertiserId" and ($"duEventType" === $"daEventType" or col("daEventType").isNull))
+    .select($"daEventType".as("sEventType"), $"s1AdvertiserId".as("sAdvertiserId"), $"attrEventCount", $"distinctUserCount")
 }
 object AttributionCalculator extends App{
 
@@ -74,5 +76,19 @@ object AttributionCalculator extends App{
   val impressions =  new Impression("src/main/resources/impressions.csv")
   val eventsImpressions = new ImpressionEvent(events, impressions)
   eventsImpressions.statistics.collect.foreach( a=> println(s"Advertiser: ${a(0)} Attributed Events ${a(1)} Uqinue User: ${a(2)}"))
+  saveDfToCsv(eventsImpressions.advertisersWithAttributedEvents.select($"daAdvertiserId", $"daEventType", $"attrEventCount"), "count_of_events.csv")
+  saveDfToCsv(eventsImpressions.distinctUserCounts.select($"duAdvertiserId", $"duEventType", $"distinctUserCount"), "count_of_users.csv")
+
+
+  def saveDfToCsv(df: DataFrame, path: String): Unit = {
+    def printToFile(f: java.io.File)(op: java.io.PrintWriter => Unit)
+    {
+      val p = new java.io.PrintWriter(f);
+      try { op(p) }
+      finally { p.close() }
+    }
+
+    printToFile(new File(path)) { p => df.collect().foreach(l=>p.println(l.mkString(",")))}
+  }
 }
 
